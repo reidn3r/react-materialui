@@ -4,10 +4,10 @@ Este projeto é uma landing page construída com React e Material UI. A landing 
 
 
 **Protótipo Inteiro:**
-![Protótipo](assets\figma.png)
+![Protótipo](assets/figma.png)
 
 **Implementação:**
-![Implementação](assets\impl.png)
+![Implementação](assets/impl.png)
 
 Clique [aqui](https://www.figma.com/design/MnFjY4TyCKhFJ9FhtM0sg8/30-Days-UIUX-Challenge-(Community)?node-id=17-117&p=f&t=ctKNlpe7j9KfGpgF-0) para ser redirecionado ao Figma.
 
