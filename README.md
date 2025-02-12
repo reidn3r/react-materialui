@@ -1,50 +1,52 @@
-# React + TypeScript + Vite
+# React e Material UI
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este projeto é uma landing page construída com React e Material UI. A landing page possui um design moderno, e a implementação foi baseada em um protótipo visual no Figma.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+**Protótipo Inteiro:**
+![Protótipo](assets\figma.png)
 
-## Expanding the ESLint configuration
+**Implementação:**
+![Implementação](assets\impl.png)
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+Clique [aqui](https://www.figma.com/design/MnFjY4TyCKhFJ9FhtM0sg8/30-Days-UIUX-Challenge-(Community)?node-id=17-117&p=f&t=ctKNlpe7j9KfGpgF-0) para ser redirecionado ao Figma.
 
-- Configure the top-level `parserOptions` property like this:
+## Tecnologias Utilizadas
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+- **React**: Biblioteca JavaScript para construção de interfaces de usuário.
+- **Material UI**: Framework de componentes para React com design material.
+- **TypeScript**: Superset do JavaScript que adiciona tipagem estática ao código.
+
+## Pré-requisitos
+
+Antes de começar, é necessário ter as seguintes ferramentas instaladas:
+
+- [Node.js](https://nodejs.org/en/) (versão 14 ou superior)
+- [npm](https://www.npmjs.com/)
+
+## Como Rodar o Projeto
+
+1. **Clone o repositório:**
+
+```bash
+  git clone git@github.com:reidn3r/react-materialui.git
+  cd react-materialui
 ```
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+2. **Instale as dependências:**
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+```bash
+  npm install
+  ```
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+3. **Inicie o servidor:**
+
+```bash
+  npm run dev
+  ```
+
+4. **Acesse no navegador:**
+
+```bash
+  http://localhost:5173
+  ```
